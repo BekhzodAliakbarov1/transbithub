@@ -1,0 +1,546 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+span{
+    color: black;
+    font-weight: 800;
+}
+/* .container > div{
+    margin: 50px 0px;
+} */
+.bImage{
+    width: 547px;
+    height: 423px;
+    background-image: url('img/image_2021-02-17_13-11-14\ 1.png');
+}
+.Bfirst h3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+.Bfirst p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: #2E7CF6;
+    line-height: 58px;
+}
+.Bfirst .inform{
+    width: 648px;
+    height: 423px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Bfirst{   
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Bfirst button, .BSix button{
+    width: 530px;
+    height: 80px;
+    border: none;
+}
+.Bfirst button:hover, .BSix button:hover{
+    color: #F7C244;
+    background-color: #FFFFFF;
+    border: 1px solid #F7C244;
+    transition: all 1s ease;
+}
+.Bfirst button, .BSix button{
+    transition: all 1s ease;
+    background: #F7C244;
+    border-radius: 30px;    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #FFFFFF;
+}
+.Bfivth h1{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: #49A0B5;
+}
+.Bfivth {
+    padding: 40px 0px;
+}
+.Bfivth p{
+    width: 80%;
+    margin: auto;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    padding: 20px 0px;
+    color: #000000;
+}
+.BSix{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+.BSix button{
+    margin: 40px;
+}
+.BSix .first{
+    height: 300px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BSix .SixContainer .first h1{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.SixContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.BSix img{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+.BSix .first p{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    width: 80%;
+    margin: auto;
+}
+.BSix .second p{
+    width: 479px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+.BNine{
+    width: 100%;
+}
+.BNine h1{
+    margin: auto;
+    width: 60%;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #2E7CF6;
+    padding-bottom: 30px;
+}
+.BNine .info{
+    /* width: 618px; */
+    height: 118px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.BNine .last{
+    width: 80%;
+}
+.BNine .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.BNine p{
+    width: 80%;
+    font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+}
+.BNine .second{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+.BNine .img{
+    width: 100px;
+    height: 100px;
+    background-image: url('img/bitcoin\ 1.png');
+}
+/* Xurshid */
+.xUnic{
+    display: flex;
+    flex-direction: column;
+    /* width: 80%; */
+    height: 100%;
+    margin: auto;
+    padding:40px 0px;
+}
+
+.xUnic h2{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color: #2E7CF6;
+}
+
+.xUnic .xp{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* align-items: center; */
+    width: 100%;
+    height: auto;
+
+}
+
+.xUnic .xp div{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 90%;
+    height: auto;
+}
+
+
+.xUnic div .xpOne span{
+    font-family: Gilroy;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #000000;
+}
+.xUnic div .xpOne{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 45px;
+    color: #000000;
+    margin-bottom: 45px;
+}
+
+.xUnic .xp2{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    height: auto;
+    width: 90%;
+    margin-left: auto;
+}
+
+.xUnic div .xpTwo span{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+    margin-left: 50px;
+}
+
+.xUnic div .xpTwo{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 45px;
+
+}
+
+.xUnic .xb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.xUnic .xb .xbb{
+    width: 385px;
+    height: 60px;
+    border-radius: 30px;
+    background: #2E7CF6;
+    border: 0px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+}
+
+
+
+
+/* Component Eight */
+
+.xEight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.xEight .xEightIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.xEight .xEightIn .xEightp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+
+.xEight .xp8One{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+.xEightp p {
+    padding: 20px;
+}
+.xEight .xp8One span{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 26px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.xEight .xp8Two {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.xEight .xp8Three{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.xEight .xp8Three span{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+.xEight .xp8Four{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.containerX {
+    width: 100%;
+    background: #F8F9FA;
+}
+
+.containerX .blockTopX {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+.blockTopX div {
+    margin: 10px;
+}
+
+.containerX .blockBottomX {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainB{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.column1B{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column1B p{
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+
+.imgB{
+    width: 100px;
+    height: 100px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 20px;
+}
+
+.column2B p{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.linkB{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkB a{
+    font-size: 24px;
+    color: #53A451;
+}
+.main2B{
+    width: 100%;
+    height: 100%;
+}
+
+.main2B h1{
+    text-align: center;
+    color: #2E7CF6;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 45px;
+    margin: 50px 0px;
+}
+
+.textBodyB{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.img2B{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img2B img{
+    width: 100px;
+    height: 100px;
+}
